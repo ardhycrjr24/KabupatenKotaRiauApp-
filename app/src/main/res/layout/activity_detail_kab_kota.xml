@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailKabKotaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_view_peta">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:scaleType="centerInside"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                tools:text="@string/kabkota_name" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TableRow>
+                    <TextView android:text="@string/pusat_pemerintahan"/>
+                    <TextView android:id="@+id/tv_pusat_pemerintahan"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/bupati_walikota"/>
+                    <TextView android:id="@+id/tv_bupati_walikota"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/luas_wilayah"/>
+                    <TextView android:id="@+id/tv_luas_wilayah"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/jumlah_penduduk"/>
+                    <TextView android:id="@+id/tv_jumlah_penduduk"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/jumlah_kecamatan"/>
+                    <TextView android:id="@+id/tv_jumlah_kecamatan"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/jumlah_kelurahan"/>
+                    <TextView android:id="@+id/tv_jumlah_kelurahan"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/jumlah_desa"/>
+                    <TextView android:id="@+id/tv_jumlah_desa"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_view_peta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tampilkan_peta_wilayah"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

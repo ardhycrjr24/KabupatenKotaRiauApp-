@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kabupaten-Kota Riau</string>
+
+    <string name="kabkota_name">Nama Kabupaten/Kota</string>
+    <string name="detail">Detail</string>
+
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+    <string name="card_view">Card View</string>
+
+    <string name="share_data">Share Data</string>
+
+    <string name="image_grid">Image Grid</string>
+    <string name="image_card">Image Card</string>
+    <string name="image_detail_kab_kota">Image Detail Kab/Kota</string>
+
+    <string name="pusat_pemerintahan">Pusat Pemerintahan</string>
+    <string name="bupati_walikota">Bupati/Walikota</string>
+    <string name="luas_wilayah">Luas Wilayah (km2)</string>
+    <string name="jumlah_penduduk">Jumlah Penduduk (2020)</string>
+    <string name="jumlah_kecamatan">Jumlah Kecamatan</string>
+    <string name="jumlah_kelurahan">Jumlah Kelurahan</string>
+    <string name="jumlah_desa">Jumlah Desa</string>
+
+    <string name="tampilkan_peta_wilayah">Tampilkan Peta Wilayah</string>
+    <string name="image_view_peta">Image View Peta</string>
+</resources>
